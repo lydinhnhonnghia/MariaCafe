@@ -1,0 +1,250 @@
+body{
+    background-image: url('../images/blur-redblack.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: Arial;
+}
+.header-wrapper{
+    background-color: #f68c1f;
+}
+.container{
+    padding: 0px 20px;
+}
+.title-wrapper{
+    color: white;
+    padding: 30px 0px;
+    font-family: Times New Roman;
+}
+.header-title{
+    font-size: 45px;
+}
+.sub-subtitle{
+    font-size: 20px;
+}
+.navbar{
+    height: 35px;
+    background-color: maroon;
+    margin: 0px -20px;    
+}
+.nav{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.nav li{
+    float: left;
+    <!-- -->
+}
+.nav li a{
+    padding: 8.5px 20px; /*1*/
+    text-decoration: none;
+    line-height: 35px;  
+    color: white;
+    font-size: 90%;
+}
+
+
+
+
+
+.site-wrapper{
+    background-color: white;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 24px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.content-wrapper{
+    display: flex; /*luu y*/
+}
+.content-left{
+    float: left; 
+    width: 700px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.section{
+    margin-top: 15px;
+    border-bottom: 3px dotted lightgrey;
+    font-size: 17px;
+    line-height: 20px;
+}
+.section:last-child{
+    border-bottom: none;
+}
+.section .content{
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.content img{
+    width: 100%;
+    border-radius: 12px;
+}
+.content-title a{
+    color: black;
+    text-decoration: none;
+}
+.content-title{
+    font-family: georgia, palatino;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.content ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.content li{
+    float: left;
+    width: 49%;
+    margin-left: 2%;
+}
+.content li:first-child{
+    margin-left: 0;
+}
+.signature{
+    font-family: Times New Roman;
+    font-size: 40px;
+    line-height: 60px;
+    font-style: italic;
+}
+.content-right{
+    float: left;
+    width: 220px;
+    margin-left: 20px;
+    margin-top: 35px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px;
+}
+
+.share-header{
+    padding: 11px 15px;
+    font-size: 22px;
+    font-family: Times New Roman;
+}
+.share-content{
+    padding: 5px 15px 11px 15px;
+    line-height: 22px;
+}
+.share-content a{
+    color: black;
+}
+
+
+
+
+.footer-wrapper{
+    display: flex;
+    height: auto;
+}
+.footer-content{
+    margin: 0 20px;
+    border-top: 1px lightgrey solid;
+    width: 100%;
+    padding: 27px 0 10px 0;
+}
+.footer-info{
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+.footer-info a{
+    color: black;
+
+}
+
+
+.introduction-title{
+    font-family: georgia, palatino;
+    font-size: 30px;
+    margin-top:10px;
+    margin-bottom: 40px;
+}
+.introduction-img{
+    width: 50%;
+    float: right;
+}
+.cake-price{
+    font-family: Times New Roman;
+    font-size: 25px;
+    padding-top: 15px;
+}
+.cake-price span{
+    color:red;
+}
+
+
+
+
+.item a{
+    text-decoration: underline;
+    color:black;
+}
+.item a:hover{
+    color: darkslategray;
+
+}
+
+.item span{
+    float:left;
+    width: 20%;
+}
+
+
+
+
+
+.content-left ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.list-item{
+    display: block;
+    width: 100%;
+}
+.each-item{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 3px dotted lightgrey;
+    font-size: 15px;
+    line-height: 20px;
+}
+.each-item:first-child{
+    margin-top: 30px;
+}
+
+.list-item .each-item .img{
+    width: 25%;
+    height:100%;
+    float:left;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.list-item .each-item .content{
+    margin-bottom: 20px;
+}
+
+.page {
+    margin-top: 30px;
+    text-align: center;
+}
+.page a{
+    color: darkred;
+    text-decoration: none;
+    border: 0.5px lightgrey solid;
+    border-radius: 5px;
+    padding: 8px 8px 8px 8px;
+}
+
+
+
+
+
+
+
+
